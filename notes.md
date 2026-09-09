@@ -169,3 +169,71 @@ index.html
 5. Every element should be closed:
    - Paired way: `<hr></hr>`
    - Self-closing way: `<hr/>`
+
+---
+
+## 11. Components
+
+Components are the core building blocks of a React application (UI). Components are nothing but blocks of code — we export and import them to make them reusable. Web pages are divided into multiple components, which are then joined together in the parent component (`App.jsx`). Components are reusable.
+
+### Rules of Components
+
+1. Component names should start with a capital letter only.
+2. Component files should be saved with a `.jsx` extension.
+3. Components can be represented in 2 ways:
+   - Paired tag: `<App></App>`
+   - Self-closing tag: `<App/>`
+
+### Types of Components
+
+1. **Class Based Component (CBC)** — stateful component
+2. **Function Based Component (FBC)** — stateless component
+
+> **NOTE:**
+> - In a CBC, there is a built-in property called `state` — so CBCs are called **stateful components**.
+> - In an FBC, there is no such built-in `state` property — so FBCs are called **stateless components**.
+
+---
+
+## 12. Props
+
+- Short for "properties"
+- Props are objects in React JS
+- Used to share information between components
+- A way of sharing data from one component to another (parent → child)
+- Props follow a **unidirectional flow** — from parent component to child component
+- Props are **immutable** — once data is passed from a parent component, it can't be changed in the child component
+
+### Props Children
+A way of sending JSX elements from a parent component to a child component. If any children are passed, a default key called `children` is created, and all JSX elements are stored in it.
+
+### Default Props
+If data has not been sent, the component will consider default data instead. `defaultProps` is a React property that allows you to set default values for props.
+
+### Props Drilling
+The process of sending data from one component to another component, and so on down the tree.
+
+---
+
+## 13. States
+
+- States are used to hold and store data at the component level.
+- States are like JS objects.
+- States are **mutable** in nature.
+- States are present only in Class Based Components.
+- States can hold two types of data:
+  1. `null`
+  2. object
+- A state can be declared/defined in 2 ways:
+  1. Constructor
+  2. State object
+
+---
+
+## 14. Hooks
+
+- Hooks are used to utilize the features of a CBC in an FBC.
+- Hooks were introduced in React version 16.8.
+- Hook names always start with the keyword `use`.
+
+> **NOTE:** To utilize state in a Function Based Component, we use the hook `useState`.
