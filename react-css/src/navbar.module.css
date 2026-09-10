@@ -1,0 +1,36 @@
+.navbarContainer {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    display: flex;
+}
+
+.navbarContainer .logo {
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarContainer .logo img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.navbarContainer .menu {
+    height: 50px;
+    flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ed213a;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid aliceblue;
+}
