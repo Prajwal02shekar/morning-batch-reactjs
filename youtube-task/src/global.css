@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    margin: 80px auto;
+    height: 530px;
+    width: 1200px;
+    border: 2px solid red;
+    display: flex;
+}
+
+.playerContainer {
+    height: 530px;
+    flex-basis: 70%;
+    background-color: antiquewhite;
+}
+
+.playerListContainer{
+    height: 530px;
+    flex-basis: 30%;
+    background-color: azure;
+    overflow: scroll;
+
+
+}
+.cardsContainer{
+    height: 180px;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cardsContainer img{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
