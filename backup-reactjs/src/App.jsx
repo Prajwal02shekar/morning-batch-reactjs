@@ -7,8 +7,9 @@ const App = () => {
     <div>
       {/* <h1>App JSX</h1>
       <hr /> */}
-      {/* <Example1/> */}
-      <Navbar/>
+      <Example1/>
+      {/* <Navbar/> */}
+      
     </div>
   )
 }

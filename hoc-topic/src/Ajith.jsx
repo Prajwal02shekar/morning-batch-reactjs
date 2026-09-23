@@ -4,7 +4,7 @@ import CommonFun from './HOC'
 const Ajith = ({money,handleMoney}) => {
     return (
         <div>
-            <h1>Ajith is Donation ₹{money}/-</h1>
+            <h1>Ajith Earned ₹{money}/-</h1>
             <button onClick={handleMoney}>Donate More money</button>
         </div>
     )
