@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarContainer {
+    height: 70px;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+}
+
+.navbarContainer .logo {
+    height: 70px;
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.navbarContainer .menu {
+    height: 70px;
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: aliceblue;
+    font-size: larger;
+    text-decoration: none;
+}
