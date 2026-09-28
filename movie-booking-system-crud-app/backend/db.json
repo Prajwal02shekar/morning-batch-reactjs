@@ -1,0 +1,20 @@
+{
+    "movies":[
+        {
+            "id":"movie101",
+            "movieName":"KGF chapter 1",
+            "genre":"Action",
+            "movieDuration":"3:15min",
+            "showTimings":"4:15pm",
+            "posterUrl":"https://m.media-amazon.com/images/M/MV5BNDVlYWYzNDUtZTM3Ny00OTI5LThiZDQtNTA0YjFhMTE1YTdjXkEyXkFqcGc@._V1_.jpg"
+        },
+        {
+            "id":"movie102",
+            "movieName":"KGF chapter 2",
+            "genre":"Action",
+            "movieDuration":"3:15min",
+            "showTimings":"4:15pm",
+            "posterUrl":"https://m.media-amazon.com/images/M/MV5BNDVlYWYzNDUtZTM3Ny00OTI5LThiZDQtNTA0YjFhMTE1YTdjXkEyXkFqcGc@._V1_.jpg"
+        }
+    ]
+}

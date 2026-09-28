@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+}
+.navbar .logo{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.navbar .menu{
+    height: 70px;
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu a{
+    color: black;
+    font-size: larger;
+}
+.container{
+    padding: 10px;
+    height: 200vh;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section{
+    height: 250px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+
+.productContainer{
+    height: 200vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.productContainer aside{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+aside h2{
+    text-align: center;
+}
