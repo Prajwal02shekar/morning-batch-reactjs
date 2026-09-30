@@ -1,20 +1,21 @@
 {
-    "movies":[
-        {
-            "id":"movie101",
-            "movieName":"KGF chapter 1",
-            "genre":"Action",
-            "movieDuration":"3:15min",
-            "showTimings":"4:15pm",
-            "posterUrl":"https://m.media-amazon.com/images/M/MV5BNDVlYWYzNDUtZTM3Ny00OTI5LThiZDQtNTA0YjFhMTE1YTdjXkEyXkFqcGc@._V1_.jpg"
-        },
-        {
-            "id":"movie102",
-            "movieName":"KGF chapter 2",
-            "genre":"Action",
-            "movieDuration":"3:15min",
-            "showTimings":"4:15pm",
-            "posterUrl":"https://m.media-amazon.com/images/M/MV5BNDVlYWYzNDUtZTM3Ny00OTI5LThiZDQtNTA0YjFhMTE1YTdjXkEyXkFqcGc@._V1_.jpg"
-        }
-    ]
+  "movies": [
+    {
+      "movieName": "Googly ",
+      "genre": "Romance/Comedy",
+      "movieDuration": "2h 30m",
+      "showTimings": "10:30",
+      "posterUrl": "https://sund-images.sunnxt.com/36175/1000x1500_08ff26a6-3720-48fa-b749-e80780563c74.jpg",
+      "id": "3JdaccFQEnc"
+    },
+    {
+      "movieName": "Santhu Straight Forward",
+      "genre": "Action/Romance",
+      "movieDuration": "2h 39m",
+      "showTimings": "10:45",
+      "posterUrl": "https://sund-images.sunnxt.com/17430/1000x1500_SanthuStraightForward_17430_62f219f5-bfa8-4eca-b562-44e71ba01d3f.jpg",
+      "id": "XRcThrBiLcc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
